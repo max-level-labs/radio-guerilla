@@ -1,0 +1,9 @@
+<div>
+  <!-- <img src="<%= static_path(@conn, "/img/giant-gorilla.jpg") %>" alt=""> -->
+  <audio id="localAudio" autoplay></audio>
+  <audio id="remoteAudio" audoplay></audio>
+
+  <button class="button" id="connect">Connect</button>
+  <button class="button" id="call">Call</button>
+  <button class="button danger" id="hangup">Hangup</button>
+</div>
